@@ -31,7 +31,6 @@ class TestMailFailing extends Mailable
         return EnvelopeForPool::failing(
             adminId: 1,
             subject: 'Test Mail',
-            contentCode: 'test-mail',
         );
     }
 

@@ -31,7 +31,6 @@ class TestMailWorking extends Mailable
         return EnvelopeForPool::working(
             adminId: 1,
             subject: 'Test Mail',
-            contentCode: 'test-mail',
         );
     }
 
